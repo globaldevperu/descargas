@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlobalDevPeru — Soporte Remoto</title>
+<style>
+  :root{
+    --bg:#0e1424; --card:#151d33; --ink:#eaf0ff; --muted:#9fb0d0;
+    --brand:#2b64ae; --brand2:#034997; --line:#22304f; --ok:#32beA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    background:radial-gradient(1200px 600px at 50% -10%,#1a2b4d 0,transparent 60%),var(--bg);
+    background-color:var(--bg);color:var(--ink);min-height:100vh;
+    display:flex;align-items:center;justify-content:center;padding:24px}
+  .card{width:100%;max-width:560px;background:var(--card);border:1px solid var(--line);
+    border-radius:20px;padding:40px 32px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+  .logo{width:104px;height:104px;margin:0 auto 20px;display:block}
+  h1{font-size:1.6rem;margin:0 0 4px}
+  .sub{color:var(--muted);margin:0 0 28px;font-size:.98rem}
+  .btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));
+    color:#fff;text-decoration:none;font-weight:700;font-size:1.08rem;
+    padding:16px 30px;border-radius:12px;transition:transform .12s ease,box-shadow .12s ease;
+    box-shadow:0 8px 24px rgba(43,100,174,.45)}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(43,100,174,.6)}
+  .meta{color:var(--muted);font-size:.82rem;margin-top:14px}
+  .steps{text-align:left;margin:32px 0 0;background:#0f1730;border:1px solid var(--line);
+    border-radius:14px;padding:20px 22px}
+  .steps h2{font-size:.95rem;margin:0 0 12px;color:var(--ink)}
+  .steps ol{margin:0;padding-left:20px;color:var(--muted);line-height:1.7;font-size:.9rem}
+  .steps b{color:var(--ink)}
+  .foot{margin-top:26px;color:var(--muted);font-size:.75rem;line-height:1.6}
+  .foot a{color:var(--muted)}
+</style>
+</head>
+<body>
+  <main class="card">
+    <img class="logo" src="logo.svg" alt="GlobalDevPeru">
+    <h1>GlobalDevPeru — Soporte Remoto</h1>
+    <p class="sub">Descarga la aplicación y ábrela para que podamos ayudarte.</p>
+
+    <a class="btn" href="GlobalDevPeru-Soporte-Remoto.exe" download>
+      ⬇ Descargar para Windows
+    </a>
+    <div class="meta">Versión 1.4.9 · Windows 10/11 · 23&nbsp;MB</div>
+
+    <div class="steps">
+      <h2>¿Cómo abrirlo la primera vez?</h2>
+      <ol>
+        <li>Abre el archivo descargado.</li>
+        <li>Si Windows muestra <b>“Windows protegió su PC”</b>, haz clic en <b>“Más información”</b>.</li>
+        <li>Aparecerá el botón <b>“Ejecutar de todas formas”</b> — haz clic ahí.</li>
+        <li>Comunícale a tu técnico el <b>ID</b> y la <b>contraseña</b> que aparecen en pantalla.</li>
+      </ol>
+    </div>
+
+    <p class="foot">
+      GlobalDevPeru — basado en RustDesk (AGPL-3.0). Código fuente de esta versión
+      disponible a solicitud: soporte@globaldevperu.com<br>
+      © 2026 GlobalDevPeru
+    </p>
+  </main>
+</body>
+</html>
